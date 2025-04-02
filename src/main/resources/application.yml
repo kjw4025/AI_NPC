@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: AI_NPC
+
+  #secret 키 import
+  config:
+    import: optional:application-secret.yml
+
